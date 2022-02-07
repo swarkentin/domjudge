@@ -2,7 +2,7 @@
 
 set -eux 
 
-curl --cacert /tmp/server.crt https://localhost/api/doc.json > ./openapi.json
+curl --cacert /tmp/server.crt https://localhost/domjudge/api/doc.json > ./openapi.json
 cat openapi.json
 
 # print the logs!
