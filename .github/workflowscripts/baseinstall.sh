@@ -52,3 +52,6 @@ cat /var/log/nginx/*
 
 # more logs
 ls -laR /home/runner/domjudge/domserver
+
+# print the logs!
+cat /home/runner/domjudge/domserver/webapp/var/log/*
