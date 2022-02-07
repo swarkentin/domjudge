@@ -51,4 +51,4 @@ curl --location http://localhost/domjudge/api/doc
 cat /var/log/nginx/*
 
 # more logs
-ls -laR /opt/domjudge
+ls -laR /home/runner/domjudge/domserver
