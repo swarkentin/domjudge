@@ -49,3 +49,6 @@ curl --location http://localhost/domjudge/api/doc
 
 # get some logs!
 cat /var/log/nginx/*
+
+# more logs
+cat /opt/domjudge/domserver/webapp/var/log/*
