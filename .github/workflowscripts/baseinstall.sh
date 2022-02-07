@@ -44,14 +44,3 @@ openssl req -nodes -new -x509 -keyout /tmp/server.key -out /tmp/server.crt -subj
 cat $(pwd)/.github/workflowscripts/nginx_extra | sudo tee -a /etc/nginx/sites-enabled/domjudge
 
 sudo systemctl restart nginx
-curl --location http://localhost/domjudge/api/
-curl --location http://localhost/domjudge/api/doc
-
-# get some logs!
-cat /var/log/nginx/*
-
-# more logs
-ls -laR /home/runner/domjudge/domserver
-
-# print the logs!
-cat /home/runner/domjudge/domserver/webapp/var/log/*
