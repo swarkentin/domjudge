@@ -46,3 +46,6 @@ cat $(pwd)/.github/workflowscripts/nginx_extra | sudo tee -a /etc/nginx/sites-en
 sudo systemctl restart nginx
 curl --location http://localhost/domjudge/api/
 curl --location http://localhost/domjudge/api/doc
+
+# get some logs!
+cat /var/log/nginx/*
